@@ -1,0 +1,5 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+import numpy as np
+
+df= pd.read_csv('https://www.ispdados.rj.gov.br/Arquivos/BaseMunicipioMensal.csv', sep= ';', encoding='latin1')
